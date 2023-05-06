@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1705715894305564364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9032266582309228389, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2337516772052157479, guid: 7b1188a1302dbc8468721d2052a270a9, type: 3}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.962734
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -67.64861
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228390, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032266582309228395, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
+      propertyPath: m_Name
+      value: Powerup (Lava)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee7755b3fc036d0478c81bf953109328, type: 3}
