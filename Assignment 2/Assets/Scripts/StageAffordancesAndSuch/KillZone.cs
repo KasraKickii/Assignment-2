@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KillZone : MonoBehaviour
 {
-    // Start is called before the first frame update
+   public InterstitialAd ad;
     void Start()
     {
         
@@ -20,6 +20,7 @@ public class KillZone : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<Health>().TryDamage(10);
+             ad.ShowAd();
         }
         if (collision.gameObject.CompareTag("IceTrap"))
         {

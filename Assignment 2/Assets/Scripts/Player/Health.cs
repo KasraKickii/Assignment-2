@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     public event PlayerBoolEvent OnDamaged;
     public event PlayerVoidEvent OnFullHealth;
     public event PlayerVoidEvent OnHealed;
+    public InterstitialAd addd;
 
     [SerializeField] private int maxHealth;
     [SerializeField] private float maxInvincibilityTime;
@@ -48,6 +49,7 @@ public class Health : MonoBehaviour
         {
             invincibilityTime = Time.deltaTime * 2; //Prevents the player from being damaged immediately after respawning (Which did in fact happen at times)
             OnDeath?.Invoke();
+            addd.ShowAd();
         }
         else
         {
