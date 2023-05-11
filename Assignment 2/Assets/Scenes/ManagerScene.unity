@@ -1845,6 +1845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57314cdf635f5234a8926551ff8e6333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  addd: {fileID: 1329374835}
   maxHealth: 5
   maxInvincibilityTime: 2
 --- !u!114 &1551356841
